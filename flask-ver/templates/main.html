@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+        <title>gerrymandle</title>
+        
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='hexgrid.css') }}">
+    </head>
+    
+    <body>
+        <article>
+            <h1>welcome to gerrymandle.</h1>
+        </article>
+        <div class="hexgrid" id="grid">
+            <div class="hexcont">
+                <div>
+                    <div class="hexcell emptycell"></div>
+                    <div class="hexcell defaultcell" onclick="log()"><div class="hexcell innercell"></div></div>
+                    <div class="hexcell defaultcell"><div class="hexcell innercell"></div></div>
+                    <div class="hexcell defaultcell"><div class="hexcell innercell"></div></div>
+                    <div class="hexcell defaultcell"><div class="hexcell innercell"></div></div>
+                    <div class="hexcell emptycell"></div>
+                </div>
+                <div>
+                    <div class="hexcell defaultcell"><div class="hexcell innercell"></div></div>
+                    <div class="hexcell defaultcell"><div class="hexcell innercell"></div></div>
+                    <div class="hexcell defaultcell"><div class="hexcell innercell"></div></div>
+                    <div class="hexcell defaultcell"><div class="hexcell innercell"></div></div>
+                    <div class="hexcell emptycell"></div>
+                    <div class="hexcell defaultcell"><div class="hexcell innercell"></div></div>
+                </div>
+                <div class="hexcell emptycell"></div>
+                <div class="hexcell defaultcell"><div class="hexcell innercell"></div></div>
+                <div class="hexcell defaultcell"><div class="hexcell innercell"></div></div>
+                <div class="hexcell defaultcell"><div class="hexcell innercell"></div></div>
+                <div class="hexcell defaultcell"><div class="hexcell innercell"></div></div>
+                <div class="hexcell defaultcell"><div class="hexcell innercell"></div></div> 
+            </div>
+          </div>
+        <script type="text/javascript">
+            function log() {
+                console.log("a")
+            }
+
+            let root = document.querySelector(":root");
+            root.style.setProperty("--size", "100px");
+
+            let root_style = getComputedStyle(root);
+            console.log(root_style.getPropertyValue('--s'));
+        </script>
+    </body>
+</html>

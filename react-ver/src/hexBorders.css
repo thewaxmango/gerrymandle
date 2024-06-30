@@ -1,0 +1,63 @@
+svg .cb-0 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 5) !important;}
+svg .cb-1 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 4) !important;}
+svg .cb-2 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 3) !important;}
+svg .cb-3 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 3) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) !important;}
+svg .cb-4 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 4) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-5 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 5) calc(var(--sidelen) * 1) !important;}
+svg .cb-01 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 2) calc(var(--sidelen) * 4) !important;}
+svg .cb-02 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 3) !important;}
+svg .cb-03 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) !important;}
+svg .cb-04 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 3) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-05 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 4) calc(var(--sidelen) * 1) !important;}
+svg .cb-12 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 3) !important;}
+svg .cb-13 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) !important;}
+svg .cb-14 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-15 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 3) calc(var(--sidelen) * 1) !important;}
+svg .cb-23 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 2) calc(var(--sidelen) * 2) calc(var(--sidelen) * 2) !important;}
+svg .cb-24 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-25 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) !important;}
+svg .cb-34 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 3) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) !important;}
+svg .cb-35 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 3) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-45 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 4) calc(var(--sidelen) * 2) !important;}
+svg .cb-012 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 3) calc(var(--sidelen) * 3) !important;}
+svg .cb-013 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) !important;}
+svg .cb-014 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 2) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-015 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 2) calc(var(--sidelen) * 3) calc(var(--sidelen) * 1) !important;}
+svg .cb-023 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 2) !important;}
+svg .cb-024 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-025 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) !important;}
+svg .cb-034 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) !important;}
+svg .cb-035 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-045 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 3) calc(var(--sidelen) * 2) !important;}
+svg .cb-123 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 3) calc(var(--sidelen) * 2) !important;}
+svg .cb-124 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-125 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) !important;}
+svg .cb-134 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) !important;}
+svg .cb-135 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-145 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 2) !important;}
+svg .cb-234 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 2) calc(var(--sidelen) * 3) calc(var(--sidelen) * 1) !important;}
+svg .cb-235 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 2) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-245 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) !important;}
+svg .cb-345 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 3) calc(var(--sidelen) * 3) !important;}
+svg .cb-0123 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 4) calc(var(--sidelen) * 2) !important;}
+svg .cb-0124 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 3) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-0125 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 3) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) !important;}
+svg .cb-0134 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) !important;}
+svg .cb-0135 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-0145 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 2) calc(var(--sidelen) * 2) calc(var(--sidelen) * 2) !important;}
+svg .cb-0234 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 3) calc(var(--sidelen) * 1) !important;}
+svg .cb-0235 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-0245 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) !important;}
+svg .cb-0345 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 3) !important;}
+svg .cb-1234 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 4) calc(var(--sidelen) * 1) !important;}
+svg .cb-1235 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 3) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-1245 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) !important;}
+svg .cb-1345 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 3) !important;}
+svg .cb-2345 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 2) calc(var(--sidelen) * 4) !important;}
+svg .cb-01234 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 5) calc(var(--sidelen) * 1) !important;}
+svg .cb-01235 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 4) calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) !important;}
+svg .cb-01245 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 3) calc(var(--sidelen) * 1) calc(var(--sidelen) * 2) !important;}
+svg .cb-01345 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 2) calc(var(--sidelen) * 1) calc(var(--sidelen) * 3) !important;}
+svg .cb-02345 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 1) calc(var(--sidelen) * 1) calc(var(--sidelen) * 4) !important;}
+svg .cb-12345 polygon {stroke: #444 !important; stroke-dasharray: calc(var(--sidelen) * 0) calc(var(--sidelen) * 1) calc(var(--sidelen) * 5) !important;}
+svg .cb-012345 polygon {stroke: #444 !important;}

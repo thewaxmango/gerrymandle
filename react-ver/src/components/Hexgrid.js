@@ -81,6 +81,26 @@ class Hexgrid extends Component {
 		this.setState({activeGroup, groups, data});
 	}
 
+	async remGroup(hex) {
+		const hexStr = this.hexToStr(hex);
+		console.log(this.state)
+		let {activeGroup, groups, data} = this.state;
+
+		if (data[hexStr].group === null) {
+		 	return;
+		}
+
+		let grp = data[hexStr].group;
+		if (grp === activeGroup) {
+		 	activeGroup = "";
+		}
+		
+		groups[grp].hexStrs.forEach((hs) => {data[hs].group = null});
+		delete groups[grp];
+
+		this.setState({activeGroup, groups, data});
+	}
+
 	async refreshBorders() {
 		let {activeGroup, groups, data} = this.state;
 		
@@ -120,13 +140,17 @@ class Hexgrid extends Component {
 	async onClick(event, source) {
 		event.preventDefault();
 		const curHex = source.state.hex;
-		const curHexStr = this.hexToStr(curHex);
 		
-		await this.doGroup(curHex);
+		if (event.shiftKey) {
+			console.log("a")
+			await this.remGroup(curHex);
+		} else {
+			await this.doGroup(curHex);
+		}
+		
 		await this.refreshBorders();
 		await this.props.updatePar(this.state);
 	}
-
 	/* async onMouseEnter(event, source) {
 		console.log("me")
 		let {activeGroup, groups, data, holdAdding} = this.state;
@@ -163,7 +187,7 @@ class Hexgrid extends Component {
 	
 		return (<>
 			<div className='hexgrid'>
-				<HexGrid width={900} height={600} viewBox='-40 -40 80 80'>
+				<HexGrid className="field-svg" width={900} height={600} viewBox='-40 -40 80 80'>
 					<Layout size={{x: 3, y: 3}} flat={true} spacing={1.03} origin={{ x: 0, y: 0 }}>
 
 						{/* PRIMARY HEXAGON */}

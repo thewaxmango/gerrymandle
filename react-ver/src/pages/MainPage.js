@@ -84,7 +84,7 @@ class MainPage extends Component {
         return (<>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></link>
             <h1>
-                Mahjong Handle &nbsp;&nbsp;
+                Gerrymandle &nbsp;&nbsp;
                 <button class="btn"><i class="fa-solid fa-circle-info"></i></button>
                 <button class="btn"><i class="fa-solid fa-trophy"></i></button>
             </h1>

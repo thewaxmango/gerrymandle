@@ -77,3 +77,9 @@ svg .cell-border polygon {
 svg .active-group polygon {
 	fill: #00000016 !important;
 }
+
+.hexgrid {
+	margin-top: -5em;
+	margin-left: -10em;
+	margin-right: -10em;
+}

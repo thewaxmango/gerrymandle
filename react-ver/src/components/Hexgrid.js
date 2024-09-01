@@ -1,37 +1,14 @@
 import React, { Component } from 'react';
-import { HexGrid, Layout, HexUtils, Hex, Hexagon, } from 'react-hexgrid';
+import { HexGrid, Layout, Hex, Hexagon, } from 'react-hexgrid';
 import { v4 as uuidv4 } from 'uuid';
-import { DIRS, addClass, hasClass, removeClass, toggleClass, defaultMap } from '../utils'
+import { DIRS, addClass, removeClass  } from '../utils';
+import "../css/index.css";
 
 class Hexgrid extends Component {
 	constructor(props) {
 		super(props);
-
-		this.config = props.config;
-		if (typeof this.config === 'undefined') {					// if config is not set, return example hexgrid
-			this.config = {
-				valid: true,
-				maxGroupSize: 15,
-				hexes: defaultMap,
-			};
-		}
-
-		let data = {};
-		this.config.hexes.map(cellConfig => {
-			data[this.hexToStr(cellConfig.hex)] = {
-				party: cellConfig.party,
-				group: null,
-				mainClasses: 'cell-main', 
-				centerClasses: cellConfig.party == '0' ? 'cell-center-0 ' : 'cell-center-1 ', 
-				borderClasses: 'cell-border cb-',
-			};
-		});
-
-		this.state = {
-			activeGroup: "",
-			groups: {},
-			data: data,
-		}
+		this.state = this.props.state;
+		this.config = this.props.cfg;
 	}
 
 	verifyConfig() {
@@ -65,7 +42,7 @@ class Hexgrid extends Component {
 	
 	async doGroup(hex) {
 		const hexStr = this.hexToStr(hex);
-		let {activeGroup, groups, data, holdAdding} = this.state;
+		let {activeGroup, groups, data} = this.state;
 
 		if (activeGroup === "") {								// if no active group
 			if (data[hexStr].group === null)  {						// if selected element not in one
@@ -105,7 +82,7 @@ class Hexgrid extends Component {
 	}
 
 	async refreshBorders() {
-		let {activeGroup, groups, data, holdAdding} = this.state;
+		let {activeGroup, groups, data} = this.state;
 		
 		this.config.hexes.map(cellData => {
 			const hex = cellData.hex;
@@ -147,13 +124,16 @@ class Hexgrid extends Component {
 		
 		await this.doGroup(curHex);
 		await this.refreshBorders();
+		await this.props.updatePar(this.state);
 	}
 
-	async onMouseEnter(event, source) {
+	/* async onMouseEnter(event, source) {
+		console.log("me")
 		let {activeGroup, groups, data, holdAdding} = this.state;
 		const hexStr = this.hexToStr(source.state.hex);
 
 		if (this.props.mouseDown) {
+			console.log("md")
 			if (holdAdding && data[hexStr].group === null) {					// if selected element not in a group
 				groups[activeGroup].hexStrs.add(hexStr);							// add to group
 				groups[activeGroup].partyCt += data[hexStr].party;
@@ -174,7 +154,7 @@ class Hexgrid extends Component {
 			holdAdding = null;
 		}
 		this.setState({holdAdding});
-	}
+	} */
 
 	render() {	
 		if (this.verifyConfig() === false) {
@@ -183,7 +163,7 @@ class Hexgrid extends Component {
 	
 		return (<>
 			<div className='hexgrid'>
-				<HexGrid width={1200} height={800} viewBox='-50 -50 100 100'>
+				<HexGrid width={900} height={600} viewBox='-40 -40 80 80'>
 					<Layout size={{x: 3, y: 3}} flat={true} spacing={1.03} origin={{ x: 0, y: 0 }}>
 
 						{/* PRIMARY HEXAGON */}
@@ -194,8 +174,8 @@ class Hexgrid extends Component {
 								r={cellConfig.hex.r} 
 								s={cellConfig.hex.s} 
 								onClick={(e, h) => this.onClick(e, h)}
-								onMouseEnter={(e, h) => this.onMouseEnter(e, h)}
-								onMouseOut={(e, h) => this.onMouseOut(e, h)}
+								//onMouseEnter={(e, h) => this.onMouseEnter(e, h)}
+								//onMouseOut={(e, h) => this.onMouseOut(e, h)}
 								className={this.state.data[this.hexToStr(cellConfig.hex)].mainClasses}
 							/>
 						)}

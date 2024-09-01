@@ -1,5 +1,4 @@
 import React from 'react';
-import { Hexagon } from 'react-hexgrid';
 
 function verifyConfig(config) {
     return true;
@@ -13,7 +12,5 @@ export default function Hexcell(props) {
 		return (<>Failed to create Hexcell.</>);
 	}
 
-    return (<>
-        
-    </>);
+    return (<></>);
 } 
